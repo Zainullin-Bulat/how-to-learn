@@ -1,11 +1,7 @@
 .page {
   min-width: 1100px;
-  /* мы ещё не умеем делать мобильную версию сайта, */
-  /* поэтому выше установлена минимальная ширина страницы */
   max-width: 1600px;
-  /* выше установили ограничение по максимальной ширине */
   margin: 0 auto;
-  /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
@@ -13,7 +9,6 @@
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
-  /* выше установили ограничения для секции */
   display: flex;
   position: relative;
 }
@@ -67,7 +62,6 @@
   display: flex;
 }
 
-/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
   height: 568px;
   width: 568px;
@@ -78,26 +72,74 @@
   background-color: #2f80ed;
 }
 
-/* и элемента с модификатором вида ключ-значение */
+.content {
+
+}
+
+.description {
+  display: flex;
+}
+
+.two-columns__position {
+  display: flex;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  justify-content: space-between;
+}
+
+.two-columns__brief_position {
+  width: 175px;
+}
+
+.two-columns__brief_text {
+  color: #2f80ed;
+  margin: 0;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.two-columns__main-text_position {
+  width: 80%;
+  min-width: 784px;
+}
+
+.two-columns__paragraph-4_text {
+  margin: 0;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.two-columns__span-accent_text {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.two-columns__span-accent_font {
+  font-weight: 600;
+  line-height: 34px;
+  font-size: 24px;
+}
+
+.two-columns__paragraph-6_text {
+  margin: 0;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
 .table__cell_theme_dark {
   width: 200px;
   color: white;
   margin-right: 0;
   margin-top: 80px;
-}
-
-.content {
-
-}
-
-.border {
-  border:5px solid #f00;
-}
-
-.description {
-  margin-top: 100px;
-  display: flex;
-  min-height: 100px;
 }
 
 .digits {
@@ -123,4 +165,8 @@
   margin-bottom: 40px;
   display: flex;
   min-height: 100px;
+}
+
+.border {
+  border:5px solid #f00;
 }
