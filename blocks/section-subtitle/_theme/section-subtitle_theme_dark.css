@@ -1,0 +1,10 @@
+.section-subtitle_theme_dark {
+  width: 60%;
+  margin-top: 20px;
+  color: white;
+  z-index: 10;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  padding: 0;
+}
